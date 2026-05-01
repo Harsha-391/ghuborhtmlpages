@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GHUBOR — The Tomb of Khonshu. Wearable scripture forged in tarnished gold and ancient bone.">
+  <title>GHUBOR — Tomb of Khonshu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Lato:wght@300;400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="khonshu.css">
+</head>
+<body>
+
+  <!-- ═══════════════ HEADER ═══════════════ -->
+  <header id="site-header">
+    <div class="header-noise"></div>
+    <div class="header-inner">
+      <a href="#" id="logo-link" class="logo">
+        <img src="./logo.png" alt="GHUBOR" class="logo-img">
+      </a>
+      <nav id="main-nav">
+        <a href="#stage" class="nav-link">Archive</a>
+        <a href="#product-details" class="nav-link">Scripture</a>
+        <a href="#catalogue" class="nav-link">Catalogue</a>
+        <a href="#" class="nav-link">Cart (0)</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ═══════════════ HERO — TRANSCENDENCE ═══════════════ -->
+  <section id="hero">
+    <div class="hero-smoke"></div>
+    <div class="hero-noise-overlay"></div>
+    <video id="hero-video" autoplay loop muted playsinline>
+      <source src="./images/hero.mp4" type="video/mp4">
+    </video>
+    <img src="./images/hero.png" alt="Ghubor — Transcendence" class="hero-fallback" id="hero-fallback">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Est. MMXXVI</p>
+      <h1 class="hero-title">Transcendence</h1>
+      <p class="hero-verse">
+        What was buried rises.<br>
+        What was broken becomes the blade.
+      </p>
+    </div>
+    <div class="hero-scroll">
+      <span class="scroll-glyph">✦</span>
+    </div>
+  </section>
+
+  <!-- ═══════════════ ASH STAGE — V-SHAPE ═══════════════ -->
+  <section id="stage">
+    <div class="stage-bg-glyph" aria-hidden="true">G</div>
+    <h2 class="section-label">The Formation</h2>
+    <div class="v-stage" id="v-stage">
+      <div class="v-glow" id="v-glow"></div>
+
+      <div class="v-slot v-left" data-index="0">
+        <img src="./images/products/hoodie.png" alt="Wraith Hoodie" loading="lazy">
+        <span class="v-numeral">I</span>
+      </div>
+
+      <div class="v-slot v-center active" data-index="1">
+        <img src="./images/products/tshirt.png" alt="Bone Tee" loading="lazy">
+        <span class="v-numeral">II</span>
+      </div>
+
+      <div class="v-slot v-right" data-index="2">
+        <img src="./images/products/jacket.png" alt="Tomb Jacket" loading="lazy">
+        <span class="v-numeral">III</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PRODUCT DETAILS — MUSEUM PLAQUE ═══════════════ -->
+  <section id="product-details">
+    <div class="plaque">
+      <div class="plaque-media">
+        <img src="./images/details/scripture.png" alt="Fabric scripture" loading="lazy" id="plaque-image">
+        <div class="plaque-media-border"></div>
+      </div>
+      <div class="plaque-body">
+        <p class="plaque-eyebrow">Artifact no. <span id="plaque-number">II</span></p>
+        <h3 class="plaque-title" id="plaque-title">Bone Tee</h3>
+        <div class="plaque-divider">
+          <span class="divider-glyph">✦</span>
+        </div>
+        <p class="plaque-scripture" id="plaque-scripture">
+          Wearable scripture. For the silent war.<br>
+          280 GSM raw cotton.<br>
+          The armor becomes skin.<br><br>
+          Between struggle and faith<br>
+          there is only the thread<br>
+          that holds the wound shut.
+        </p>
+        <div class="plaque-tags" id="plaque-tags">
+          <span class="plaque-tag">280 GSM</span>
+          <span class="plaque-tag">Raw Cotton</span>
+          <span class="plaque-tag">Oversized</span>
+        </div>
+        <button class="cta-glyph" id="cta-acquire" aria-label="Acquire this artifact">
+          <span class="glyph-icon">✦</span>
+          <span class="glyph-price" id="glyph-price">₹2,999</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PILLARS ═══════════════ -->
+  <section id="pillars">
+    <div class="pillar">
+      <img src="./images/pillars/faith.png" alt="Faith" loading="lazy">
+      <h4 class="pillar-name">Faith</h4>
+      <p class="pillar-verse">To wear what you believe<br>before you can prove it.</p>
+    </div>
+    <div class="pillar">
+      <img src="./images/pillars/struggle.png" alt="Struggle" loading="lazy">
+      <h4 class="pillar-name">Struggle</h4>
+      <p class="pillar-verse">Every stitch earned.<br>Nothing was given.</p>
+    </div>
+    <div class="pillar">
+      <img src="./images/pillars/transcendence.png" alt="Transcendence" loading="lazy">
+      <h4 class="pillar-name">Transcendence</h4>
+      <p class="pillar-verse">The body fades.<br>The mark remains.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════ INFINITE CATALOGUE ═══════════════ -->
+  <section id="catalogue">
+    <div class="cat-track" id="cat-track">
+      <div class="cat-seg">
+        <div class="cat-item cat-img-wrap" data-desc="Raw-edge stitching on 280 GSM cotton. Every seam a scar earned.">
+          <img src="./images/details/tag.png" alt="Tag macro" class="cat-img">
+        </div>
+        <span class="cat-word">GHUBOR</span>
+        <div class="cat-item cat-img-wrap" data-desc="The glyph — pressed into flesh, pressed into fabric. Mark of the unbroken.">
+          <img src="./images/details/glyph.png" alt="Glyph macro" class="cat-img">
+        </div>
+        <span class="cat-word">KHONSHU</span>
+        <div class="cat-item cat-img-wrap" data-desc="Scripture woven into the weave. Read only by those who know the weight.">
+          <img src="./images/details/scripture.png" alt="Scripture macro" class="cat-img">
+        </div>
+        <span class="cat-word">ARMOR</span>
+        <div class="cat-item cat-img-wrap" data-desc="Longsleeve covenant. Full-arm protection against the cold and the faithless.">
+          <img src="./images/products/longsleeve.png" alt="Longsleeve" class="cat-img">
+        </div>
+        <span class="cat-word">COVENANT</span>
+        <div class="cat-item cat-img-wrap" data-desc="Built to endure the descent. 320 GSM twill. Reinforced at the knee — where you kneel.">
+          <img src="./images/products/pants.png" alt="Pants" class="cat-img">
+        </div>
+        <span class="cat-word">FAITH</span>
+      </div>
+      <!-- Duplicate for seamless loop -->
+      <div class="cat-seg">
+        <div class="cat-item cat-img-wrap" data-desc="Raw-edge stitching on 280 GSM cotton. Every seam a scar earned.">
+          <img src="./images/details/tag.png" alt="Tag macro" class="cat-img">
+        </div>
+        <span class="cat-word">GHUBOR</span>
+        <div class="cat-item cat-img-wrap" data-desc="The glyph — pressed into flesh, pressed into fabric. Mark of the unbroken.">
+          <img src="./images/details/glyph.png" alt="Glyph macro" class="cat-img">
+        </div>
+        <span class="cat-word">KHONSHU</span>
+        <div class="cat-item cat-img-wrap" data-desc="Scripture woven into the weave. Read only by those who know the weight.">
+          <img src="./images/details/scripture.png" alt="Scripture macro" class="cat-img">
+        </div>
+        <span class="cat-word">ARMOR</span>
+        <div class="cat-item cat-img-wrap" data-desc="Longsleeve covenant. Full-arm protection against the cold and the faithless.">
+          <img src="./images/products/longsleeve.png" alt="Longsleeve" class="cat-img">
+        </div>
+        <span class="cat-word">COVENANT</span>
+        <div class="cat-item cat-img-wrap" data-desc="Built to endure the descent. 320 GSM twill. Reinforced at the knee — where you kneel.">
+          <img src="./images/products/pants.png" alt="Pants" class="cat-img">
+        </div>
+        <span class="cat-word">FAITH</span>
+      </div>
+    </div>
+    <!-- Expandable detail panel -->
+    <div class="cat-expand" id="cat-expand">
+      <p class="cat-expand-text" id="cat-expand-text"></p>
+      <button class="cat-expand-close" id="cat-expand-close" aria-label="Close">✕</button>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer id="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <img src="./logo.png" alt="GHUBOR" class="footer-logo-img">
+        <p class="footer-creed">What was buried rises.<br>What was silent speaks.</p>
+      </div>
+      <div class="footer-col">
+        <span class="footer-head">Navigate</span>
+        <a href="#stage" class="footer-link">Archive</a>
+        <a href="#" class="footer-link">Lookbook</a>
+        <a href="#" class="footer-link">About the House</a>
+      </div>
+      <div class="footer-col">
+        <span class="footer-head">Contact</span>
+        <a href="#" class="footer-link">Instagram</a>
+        <a href="#" class="footer-link">support@ghubor.com</a>
+      </div>
+    </div>
+    <div class="footer-base">
+      <span>© MMXXVI GHUBOR. All marks reserved.</span>
+    </div>
+  </footer>
+
+  <script src="khonshu.js"></script>
+</body>
+</html>
